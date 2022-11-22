@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/TodoList.unity
+    guid: ab585e3745b0f134e8256072ced7088a
+  - enabled: 1
+    path: Assets/Scenes/IdeaSketch.unity
+    guid: 3c36d5600a3a76f4e86316ea0593b2cf
   m_configObjects: {}

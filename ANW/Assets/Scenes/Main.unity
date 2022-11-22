@@ -704,6 +704,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 848355828}
+  - component: {fileID: 848355829}
   m_Layer: 0
   m_Name: Clickable
   m_TagString: Untagged
@@ -728,6 +729,18 @@ Transform:
   m_Father: {fileID: 1435159267}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &848355829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848355827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec6117ea2de9b1345bdf8ad8a4e3c9c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1056045546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,7 +1183,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1228570744}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 848355829}
+        m_TargetAssemblyTypeName: mainMenuButton, Assembly-CSharp
+        m_MethodName: ClickIdea
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1228570744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1526,8 +1551,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540074682}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 195, y: 349, z: -0.045373578}
-  m_LocalScale: {x: 212, y: 194.15, z: 4.9608355}
+  m_LocalPosition: {x: 195, y: 359.74, z: -0.045373578}
+  m_LocalScale: {x: 212, y: 212.01588, z: 4.9608355}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2132914334}
@@ -1838,7 +1863,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1922608370}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 848355829}
+        m_TargetAssemblyTypeName: mainMenuButton, Assembly-CSharp
+        m_MethodName: ClickTodo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1922608370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2224,8 +2261,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033611123}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 195, y: 349, z: -0.045373578}
-  m_LocalScale: {x: 212, y: 194.15, z: 4.9608355}
+  m_LocalPosition: {x: 195, y: 360.428, z: -0.045373578}
+  m_LocalScale: {x: 212, y: 211.82536, z: 4.9608355}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2109963222}
@@ -2343,7 +2380,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BETA 1.0.007a
+  m_text: BETA 1.0.008a
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2478,7 +2515,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BETA 1.0.007a
+  m_text: BETA 1.0.008a
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
