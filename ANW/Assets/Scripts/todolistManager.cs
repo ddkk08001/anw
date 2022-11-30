@@ -201,12 +201,86 @@ public class todolistManager : MonoBehaviour
 
     public void Input4Pressed()
     {
-
+        if (isInput1on == 1)
+        {
+            if (isInput2on == 1)
+            {
+                if (isInput3on == 1)
+                {
+                    if (isInput4on == 0)
+                    {
+                        input4.gameObject.SetActive(true);
+                        PlayerPrefs.SetInt("Input4", 1);
+                        isInput4on = 1;
+                    }
+                    else
+                    {
+                        return;
+                    }
+                }
+                else
+                {
+                    Debug.Log("3번 먼저 입력!");
+                    return;
+                }
+            }
+            else
+            {
+                Debug.Log("2번 먼저 입력!");
+                return;
+            }
+        }
+        else
+        {
+            Debug.Log("1번 먼저 입력!");
+            return;
+        }
     }
 
     public void Input5Pressed()
     {
-
+        if (isInput1on == 1)
+        {
+            if (isInput2on == 1)
+            {
+                if (isInput3on == 1)
+                {
+                    if (isInput4on == 1)
+                    {
+                        if (isInput5on == 0)
+                        {
+                            input5.gameObject.SetActive(true);
+                            PlayerPrefs.SetInt("Input5", 1);
+                            isInput5on = 1;
+                        }
+                        else
+                        {
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        Debug.Log("4번 먼저 입력!");
+                        return;
+                    }
+                }
+                else
+                {
+                    Debug.Log("3번 먼저 입력!");
+                    return;
+                }
+            }
+            else
+            {
+                Debug.Log("2번 먼저 입력!");
+                return;
+            }
+        }
+        else
+        {
+            Debug.Log("1번 먼저 입력!");
+            return;
+        }
     }
 
     public void Input6Pressed()
